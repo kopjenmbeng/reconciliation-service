@@ -34,7 +34,7 @@ The `reconciliation-service` is a microservice designed to handle data reconcili
 ## System Design
 
 ## System Design
-![Optional Text](../master/files/system-design/reconcile-process.jpg)
+![Optional Text](../master/files/system-design/reconcile-process.png)
 
 # Technology Stack
 -   GO
