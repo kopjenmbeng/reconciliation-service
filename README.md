@@ -32,8 +32,6 @@ The `reconciliation-service` is a microservice designed to handle data reconcili
     go run main.go
     ``
 ## System Design
-
-## System Design
 ![Optional Text](../master/files/system-design/reconcile-process.png)
 
 # Technology Stack
