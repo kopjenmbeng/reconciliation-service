@@ -108,9 +108,9 @@ func (u *UseCase) Reconcile(systemTrxCsvPath string, bankStmntsCsvPath []string,
 
 		if matches, ok := bankStatementMap[key]; ok {
 			// A match is found. Mark it as matched and handle potential multiple matches.
-			// For simplicity, we'll assume the first available match is the correct one.
+			// assuming the first available match is the correct one.
 			for _, match := range matches {
-				// We need to check if this specific bank statement has already been matched.
+				// check if this specific bank statement has already been matched.
 				matchKey := fmt.Sprintf("%s_%s", match.UniqueIdentifier, key)
 				if !matchedBankStatements[matchKey] {
 					report.TotalMatched++

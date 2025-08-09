@@ -18,7 +18,7 @@ func main() {
 	bankStatementCsvFiles := []string{"./files/bank-statement.csv"}
 	systemTransactionCsvFiles := "./files/system-transaction.csv"
 
-	// init stast and end date for reconciliation
+	// init start and end date for reconciliation
 	startDate, _ := time.Parse("2006-01-02", "2023-10-25")
 	endDate, _ := time.Parse("2006-01-02", "2023-10-28")
 
